@@ -8,6 +8,9 @@ import os
 import markdown
 
 def convert_markdown_to_html(input_file, output_file):
+    """
+    Converts Markdown file to HTML
+    """
     try:
         with open(input_file, 'r') as md_file:
             md_content = md_file.read()
